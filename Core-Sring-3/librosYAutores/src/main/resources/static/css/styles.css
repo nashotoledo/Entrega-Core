@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: sans-serif;
+
+}
+
+body{
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+h1, li {
+    color: white;
+}
+
+li{
+	padding: 5px;
+}
+
+ul{
+	padding: 10px;
+	border: solid 1px white;
+	border-radius: 10px;
+}
+
+.errores {
+    color: rgb(255, 0, 0);
+}
+
+a{
+    color: rgb(0, 174, 255);
+}
+
+label{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+.agregar{
+	color: greenyellow;
+}
