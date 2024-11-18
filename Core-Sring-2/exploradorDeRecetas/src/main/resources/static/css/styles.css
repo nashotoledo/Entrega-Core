@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+*{
+	text-decoration: none;
+}
+
+body{
+	font-family: Sans-serif;
+	 background-color: rgb(37, 37, 37);
+}
+
+h1, h2, h3, li {
+    color: white;
+}
+
+p{
+    color: red;
+}
+
+a{
+    color: greenyellow;
+}
