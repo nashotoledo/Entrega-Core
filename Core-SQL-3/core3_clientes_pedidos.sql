@@ -1,6 +1,22 @@
-CREATE DATABASE clientes_pedidos_db;
+CREATE DATABASE canciones_db;
 
-USE clientes_pedidos_db;
+USE canciones_db;
+
+SELECT * FROM canciones;
+SELECT * FROM artistas;
+
+ALTER TABLE canciones MODIFY fecha_actualizacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP;
+
+INSERT INTO canciones (titulo, artista, album, genero, idioma, fecha_creacion, fecha_actualizacion)
+VALUES ('Rock With You', 'Michael Jackson', 'Off the Wall', 'Pop', 'Ingles', NOW(), NOW()),
+('Hoguera', 'Mantoi', 'Álbum 2', 'Hip-Hop', 'Español', NOW(), NOW()),
+('Canción 3', 'Artista 3', 'Álbum 3', 'Rock', 'Español', NOW(), NOW()),
+('Canción 4', 'Artista 4', 'Álbum 4', 'Indie', 'Español', NOW(), NOW());
+
+
+
+
+
 
 -- Tabla "clientes"
 CREATE TABLE clientes (

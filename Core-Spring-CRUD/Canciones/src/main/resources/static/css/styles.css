@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10vh;
+    gap: 15px;
+}
+
+h1, h2, h3, li {
+    color: rgb(255, 255, 255);
+}
+
+a {
+    color: rgb(145, 240, 37);
+    border-radius: 15px;
+}
+
+label{
+    color: white;
+}
+
+p{
+	color: white;
+}
+
+.error{
+    color: red;
+}
+
+tr{
+    color: white;
+    background-color: gray;
+    border-radius: 15px;
+}
